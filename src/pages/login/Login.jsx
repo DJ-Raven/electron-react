@@ -24,7 +24,7 @@ function Login() {
               <input
                 className="w-full border rounded-md px-3 py-1"
                 type="password"
-                placeholder="password"
+                placeholder="Password"
               />
             </div>
             <button className="w-full px-3 py-1 rounded-md transition-colors text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700">
