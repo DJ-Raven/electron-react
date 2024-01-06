@@ -1,5 +1,5 @@
 # Electron React
-Build with react and tailwind
+This project is a basic desktop application created using React, Tailwind CSS, Electron, and Node.js.
 ## Installation
 To get started with this project, make sure you have Node.js installed. We recommend using the latest LTS (Long-Term Support) version.
 Use a package manager like npm or yarn to install the required dependencies.
