@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
+
+  const login = () => {
+    navigate("/dashboard");
+  };
+
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="relative">
@@ -27,7 +34,10 @@ function Login() {
                 placeholder="Password"
               />
             </div>
-            <button className="w-full px-3 py-1 rounded-md transition-colors text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700">
+            <button
+              className="w-full px-3 py-1 rounded-md transition-colors text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700"
+              onClick={login}
+            >
               Sign in
             </button>
           </div>
