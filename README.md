@@ -24,4 +24,5 @@ npm run electron:serve
 ```
 ## Screenshot
 #### Login page
-<img src="https://github.com/DJ-Raven/electron-react/assets/58245926/0442feab-4e59-4feb-951d-e74ad6b2caa5" alt="sample login" width="500"/>
+<img src="https://github.com/DJ-Raven/electron-react/assets/58245926/bb804d92-e6ef-4436-9442-e618e83ac85d" alt="sample login dark" width="500"/>
+<img src="https://github.com/DJ-Raven/electron-react/assets/58245926/a9cdb76a-ac8d-4c5b-b730-7c8054674f25" alt="sample login light" width="500"/>
