@@ -24,5 +24,19 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          accent: "#5856D6",
+        },
+        dark: {
+          ...require("daisyui/src/theming/themes")["dark"],
+          accent: "#5856D6",
+        },
+      },
+    ],
+  },
 };
