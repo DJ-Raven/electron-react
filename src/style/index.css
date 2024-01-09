@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 @layer utilities {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: var(--fallback-bc, oklch(var(--bc) / 0.2));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--fallback-bc, oklch(var(--bc) / 0.3));
+    border-radius: 100vh;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--fallback-bc, oklch(var(--bc) / 0.5));
+  }
+
   .animation-delay-2000 {
     animation-delay: 2s;
   }
