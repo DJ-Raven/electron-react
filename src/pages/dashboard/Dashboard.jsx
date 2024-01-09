@@ -2,8 +2,7 @@ import React from "react";
 
 function Dashboard() {
   return (
-    <div className="p-5 scrollbar">
-      <p>Dashboard</p>
+    <div className="">
       <textarea className="textarea textarea-accent" />
     </div>
   );
