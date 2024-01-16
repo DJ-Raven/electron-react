@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <div>
-        <div className="drawer">
+        <div className="drawer z-50">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             {/* Navbar */}
@@ -55,17 +55,22 @@ function Navbar() {
                   <HiOutlineHome size={18} />
                   Dashboard
                 </a>
-                <a href="/#">
-                  <HiOutlineDesktopComputer size={18} />
-                  E-Commerce
-                </a>
-                <ul>
-                  <li>
-                    <a href="/#">Item 1</a>
-                    <a href="/#">Item 2</a>
-                    <a href="/#">Item 3</a>
-                  </li>
-                </ul>
+              </li>
+              <li>
+                <details open>
+                  <summary>
+                    <HiOutlineDesktopComputer size={18} />
+                    Product
+                  </summary>
+                  <ul>
+                    <li>
+                      <a href="/product">Product</a>
+                    </li>
+                    <li>
+                      <a href="/product">Category</a>
+                    </li>
+                  </ul>
+                </details>
               </li>
               <li>
                 <a href="/#">
